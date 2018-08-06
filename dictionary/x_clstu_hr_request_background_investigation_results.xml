@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Background Investigation Results" max_length="40" name="x_clstu_hr_request_background_investigation_results" type="collection">
+        <element choice="1" label="Candidate BI Results" max_length="40" name="bi_results" type="choice">
+            <choice>
+                <element label="Cleared" sequence="0" value="cleared"/>
+                <element label="Not Cleared" sequence="1" value="not_cleared"/>
+                <element label="Referred to BIC" sequence="2" value="bic"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Request Number" max_length="32" name="request_number" reference="x_clstu_hr_request_background_investigation" type="reference"/>
+        <index name="index">
+            <element name="request_number"/>
+        </index>
+    </element>
+</database>

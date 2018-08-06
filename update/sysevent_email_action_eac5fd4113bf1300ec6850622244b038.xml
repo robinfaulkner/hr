@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_clstu_hr_request_background_investigation_results</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>approval.cancelled</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">Hi ${request_number.hiring_manager},</div>
+<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">&nbsp;</div>
+<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">HIRING MANAGER ACTION NEEDED.</div>
+<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">&nbsp;</div>
+<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">We ask that you do not forward this email to candidates, this message is intended for the department hiring manager or designee(s) only.&nbsp;&nbsp;Note this is an automated communication being sent by Human Resources.</div>
+<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">&nbsp;</div>
+<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">CANDIDATES CAN NOT BEGIN WORKING UNTIL HR PROVIDES THE HIRING MANAGER WITH FINAL CLEARANCE ALONG WITH THE ELIGIBLE START DATE IN WRITING VIA EMAIL.</div>
+<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">&nbsp;</div>
+<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">The background investigation for the following individual has been processed and approved. If applicable, please have the candidate report to Human Resources in order to complete their Hiring Packet. Below is a link to the forms as well as the specific forms they will need to complete at least 5-7 days before their anticipated date of hire. Please advise the candidate of the University&rsquo;s participation in the Federal e-Verify program which requires us to verify their employment status with Homeland Security, as well as the BOR Policy for Direct Deposit.</div>
+<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">&nbsp;</div>
+<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">Candidate: ${request_number.first_name_of_candidate} ${request_number.last_name_of_candidate}</div>
+<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">Candidate BI Results: ${bi_results}</div>
+<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">&nbsp;</div>
+<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">Hiring Documents Needed: PAF &amp; New Hire Packet</div>
+<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">&nbsp;</div>
+<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">Please further note, the manager of the candidate(s) will need to submit a PAF in order to commence the hiring process. Please see links below for the Personnel Action Form (PAF) and New Hire Packets. If an Offer Letter is applicable, please contact Maisie Kocher. For Accounting and Budget information please contact Scott McElroy.</div>
+<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">&nbsp;</div>
+<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; New Hire Packets:&nbsp;&nbsp;<a href="http://www.clayton.edu/human-resources/Forms/New-Hire-Packets">http://www.clayton.edu/human-resources/Forms/New-Hire-Packets</a></div>
+<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Personnel Action Form (PAF):<span class="Apple-converted-space">&nbsp;</span><a href="http://www.clayton.edu/Portals/24/docs/personnel-action-form-PAF.pdf">http://www.clayton.edu/Portals/24/docs/personnel-action-form-PAF.pdf</a></div>
+<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">&nbsp;</div>
+<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">If we can assist you in any other way, please feel free to contact us.</div>
+<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">&nbsp;</div>
+<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">Thank you,</div>
+<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">Human Resources</div>
+<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">o: 678.466.4230 | f: 678.466.4239</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Send BI Notification to Hiring Manager</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>request_number.hiring_manager</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Background Investigation Results: ${request_number.first_name_of_candidate} ${request_number.last_name_of_candidate}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2018-08-06 19:33:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>eac5fd4113bf1300ec6850622244b038</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Send BI Notification to Hiring Manager</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
+        <sys_update_name>sysevent_email_action_eac5fd4113bf1300ec6850622244b038</sys_update_name>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2018-08-06 19:35:41</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

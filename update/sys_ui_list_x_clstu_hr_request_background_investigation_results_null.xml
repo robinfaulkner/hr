@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_clstu_hr_request_background_investigation_results" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>request_number</element>
+            <list_id display_value="x_clstu_hr_request_background_investigation_results" element="NULL" name="x_clstu_hr_request_background_investigation_results" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6243fd49137f1300ec6850622244b08d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2018-08-06 19:18:06</sys_created_on>
+            <sys_id>e643fd49137f1300ec6850622244b08d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2018-08-06 19:18:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>request_number.first_name_of_candidate</element>
+            <list_id display_value="x_clstu_hr_request_background_investigation_results" element="NULL" name="x_clstu_hr_request_background_investigation_results" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6243fd49137f1300ec6850622244b08d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2018-08-06 19:18:06</sys_created_on>
+            <sys_id>2243390d137f1300ec6850622244b0cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2018-08-06 19:18:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>request_number.last_name_of_candidate</element>
+            <list_id display_value="x_clstu_hr_request_background_investigation_results" element="NULL" name="x_clstu_hr_request_background_investigation_results" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6243fd49137f1300ec6850622244b08d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2018-08-06 19:18:06</sys_created_on>
+            <sys_id>a243390d137f1300ec6850622244b0cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2018-08-06 19:18:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>bi_results</element>
+            <list_id display_value="x_clstu_hr_request_background_investigation_results" element="NULL" name="x_clstu_hr_request_background_investigation_results" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6243fd49137f1300ec6850622244b08d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2018-08-06 19:18:06</sys_created_on>
+            <sys_id>2643390d137f1300ec6850622244b0cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2018-08-06 19:18:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_clstu_hr_request_background_investigation_results</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2018-08-06 19:18:06</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6243fd49137f1300ec6850622244b08d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_clstu_hr_request_background_investigation_results</sys_name>
+            <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
+            <sys_update_name>sys_ui_list_x_clstu_hr_request_background_investigation_results_null</sys_update_name>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2018-08-06 19:18:06</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

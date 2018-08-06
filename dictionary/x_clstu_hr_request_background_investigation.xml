@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Background Investigation Request" max_length="40" name="x_clstu_hr_request_background_investigation" sizeclass="24" type="collection">
+        <element label="Candidate e-Mail Address" max_length="100" name="candidate_e_mail_address" type="string"/>
+        <element label="First Name of Candidate" max_length="50" name="first_name_of_candidate" type="string"/>
+        <element label="Hiring Department" max_length="100" name="hiring_department" type="string"/>
+        <element label="Hiring Department ID" max_length="50" name="hiring_department_id" type="string"/>
+        <element label="Hiring Manager" max_length="32" name="hiring_manager" reference="sys_user" reference_qual="department!=ad749df6131f22001784b3b12244b09a^EQ" reference_qual_condition="department!=ad749df6131f22001784b3b12244b09a^EQ" type="reference"/>
+        <element choice="1" label="Is a P-Card required for this candidate (If yes, your candidate must complete a " max_length="40" name="is_a_p_card_required" type="choice">
+            <choice>
+                <element label="No" value="no"/>
+                <element label="Yes" value="yes"/>
+            </choice>
+        </element>
+        <element label="I acknoweldge and agree to comply - Candidate Begin Work" max_length="40" name="i_acknoweldge_and_agree" type="boolean"/>
+        <element label="Last Name of Candidate" max_length="50" name="last_name_of_candidate" type="string"/>
+        <element label="Middle Name or Middle Initial of Candidate" max_length="50" name="middle_name_or_middle_initial_of_candidate" type="string"/>
+        <element label="Position Applied" max_length="100" name="position_applied" type="string"/>
+        <element choice="1" label="Proposed Employment Status" max_length="40" name="proposed_employment_status" type="choice">
+            <choice>
+                <element label="Full Time" sequence="1" value="ft"/>
+                <element label="Part Time" sequence="2" value="pt"/>
+                <element label="Student Assistant" sequence="3" value="sa"/>
+                <element label="Graduate Assistant" sequence="4" value="ga"/>
+                <element label="Non Paid Affiliate" sequence="5" value="npa"/>
+                <element label="Dual Appointment" sequence="6" value="da"/>
+            </choice>
+        </element>
+        <element label="Supervisor" max_length="32" name="supervisor" reference="sys_user" reference_qual="department!=ad749df6131f22001784b3b12244b09a^EQ" reference_qual_condition="department!=ad749df6131f22001784b3b12244b09a^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is this Candidate associate with Minors on Campus?" max_length="40" name="u_minors" type="string">
+            <choice>
+                <element label="No" sequence="0" value="no"/>
+                <element label="Yes- Please adhere to the Minors on Campus Policy and Procedures" sequence="1" value="yes- please adhere to the minors on campus policy and procedures"/>
+            </choice>
+        </element>
+        <element label="Requestor Name" max_length="32" name="u_requestor_name" reference="sys_user" type="reference"/>
+    </element>
+</database>

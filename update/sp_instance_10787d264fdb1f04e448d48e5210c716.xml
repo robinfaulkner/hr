@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css>.box {&#13;
+   text-align: left;&#13;
+    max-width: 1280px;&#13;
+    margin: 20px auto auto;&#13;
+    padding: 20px;&#13;
+    padding-bottom: 180px;&#13;
+    clear: both;&#13;
+}&#13;
+&#13;
+h1 {&#13;
+    color: white;&#13;
+}</css>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">62e8b5664fdb1f04e448d48e5210c7ef</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2018-07-17 15:00:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>10787d264fdb1f04e448d48e5210c716</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
+        <sys_update_name>sp_instance_10787d264fdb1f04e448d48e5210c716</sys_update_name>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2018-07-17 15:48:41</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<div class=\"box\">\n<h1>Human Resources Service Portal</h1>\n</div>",
+		"displayValue": "<div class=\"box\">\n<h1>Human Resources Service Portal</h1>\n</div>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+</record_update>
