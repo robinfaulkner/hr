@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_portal">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
     <sp_portal action="INSERT_OR_UPDATE">
         <css_variables/>
         <default>false</default>
@@ -46,6 +45,7 @@
         <image_width>766</image_width>
         <size_bytes>17288</size_bytes>
         <size_compressed>17060</size_compressed>
+        <state/>
         <sys_created_by>rfaulkner1</sys_created_by>
         <sys_created_on>2018-07-13 16:21:42</sys_created_on>
         <sys_id>60c469994f571b04e448d48e5210c754</sys_id>

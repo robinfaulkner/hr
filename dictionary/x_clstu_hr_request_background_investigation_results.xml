@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element label="Background Investigation Results" max_length="40" name="x_clstu_hr_request_background_investigation_results" type="collection">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Background Investigation Results" max_length="40" name="x_clstu_hr_request_background_investigation_results" type="collection">
         <element choice="1" label="Candidate BI Results" max_length="40" name="bi_results" type="choice">
             <choice>
-                <element label="Cleared" sequence="0" value="cleared"/>
-                <element label="Not Cleared" sequence="1" value="not_cleared"/>
-                <element label="Referred to BIC" sequence="2" value="bic"/>
+                <element inactive_on_update="false" label="Cleared" sequence="0" value="cleared"/>
+                <element inactive_on_update="false" label="Not Cleared" sequence="1" value="not_cleared"/>
+                <element inactive_on_update="false" label="Referred to BIC" sequence="2" value="bic"/>
+                <element inactive_on_update="false" label="Pending Receipt of Security Questionnaire and Loyalty Oath" sequence="3" value="pending_security_question"/>
+                <element inactive_on_update="false" label="Background Request Expired - Candidate did not submit to request" sequence="4" value="bi_expired"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Hiring Documents Needed" max_length="40" name="hiring_documents_needed" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Resubmit the BI Request, if applicable" value="bi_expired"/>
+                <element inactive_on_update="false" label="Security Questionnaire and Loyalty Oath" value="security_question"/>
+                <element inactive_on_update="false" label="New Hire Packet" sequence="0" value="New Hire Packet"/>
             </choice>
         </element>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>

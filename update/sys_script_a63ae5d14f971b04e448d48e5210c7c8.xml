@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_script">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
     <sys_script action="INSERT_OR_UPDATE">
         <abort_action>false</abort_action>
         <access>package_private</access>
@@ -40,7 +39,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a63ae5d14f971b04e448d48e5210c7c8</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Create Watchlist</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
@@ -49,8 +48,8 @@
         <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
         <sys_update_name>sys_script_a63ae5d14f971b04e448d48e5210c7c8</sys_update_name>
         <sys_updated_by>rfaulkner1</sys_updated_by>
-        <sys_updated_on>2018-07-13 19:36:31</sys_updated_on>
-        <template>watch_list=6c58467a135f22001784b3b12244b01c,e07e3a3a139f22001784b3b12244b012^EQ</template>
+        <sys_updated_on>2018-09-25 17:49:55</sys_updated_on>
+        <template>watch_list=6c58467a135f22001784b3b12244b01c,e07e3a3a139f22001784b3b12244b012,f2eab9e3136ce700c5d457b32244b0fb^EQ</template>
         <when>before</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=a63ae5d14f971b04e448d48e5210c7c8"/>

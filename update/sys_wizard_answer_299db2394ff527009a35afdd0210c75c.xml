@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>HR Requests</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>HR Requests</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">70f34f064f3622009a35afdd0210c72e</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>mkocher</sys_created_by>
+        <sys_created_on>2018-11-16 18:43:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>299db2394ff527009a35afdd0210c75c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR Requests</sys_name>
+        <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
+        <sys_update_name>sys_wizard_answer_299db2394ff527009a35afdd0210c75c</sys_update_name>
+        <sys_updated_by>mkocher</sys_updated_by>
+        <sys_updated_on>2018-11-16 18:43:43</sys_updated_on>
+        <table/>
+        <target_url>x_clstu_hr_request_x_clstu_hr_request.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="bi_results" table="x_clstu_hr_request_background_investigation_results" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -57,6 +56,44 @@
             <sys_updated_by>rfaulkner1</sys_updated_by>
             <sys_updated_on>2018-08-06 19:11:08</sys_updated_on>
             <value>bic</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>bi_results</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pending Receipt of Security Questionnaire and Loyalty Oath</label>
+            <language>en</language>
+            <name>x_clstu_hr_request_background_investigation_results</name>
+            <sequence>3</sequence>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2018-08-28 20:46:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5f6a1740131ca740ec6850622244b09f</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2018-08-29 19:04:55</sys_updated_on>
+            <value>pending_security_question</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>bi_results</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Background Request Expired - Candidate did not submit to request</label>
+            <language>en</language>
+            <name>x_clstu_hr_request_background_investigation_results</name>
+            <sequence>4</sequence>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2018-08-28 20:46:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>398a9740131ca740ec6850622244b018</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2018-08-28 20:47:12</sys_updated_on>
+            <value>bi_expired</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>bi_results</element>

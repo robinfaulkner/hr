@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">49fc367213352f001784b3b12244b0e1</block>
+        <comment/>
+        <connected_to/>
+        <display_text/>
+        <flow display_value="HR Flow">368cba3213352f001784b3b12244b005</flow>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2018-11-19 21:14:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>05fc367213352f001784b3b12244b0e3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_05fc367213352f001784b3b12244b0e3</sys_update_name>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2018-11-19 21:16:34</sys_updated_on>
+        <ui_id>12890361-12b8-438e-9fdb-b5195ac21c29</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=05fc367213352f001784b3b12244b0e3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>05fc367213352f001784b3b12244b0e3</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2018-11-19 21:14:52</sys_created_on>
+        <sys_id>85fc367213352f001784b3b12244b0e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2018-11-19 21:14:52</sys_updated_on>
+        <value>{{Created or Updated_1.current.bi_results}}=cleared^NQ{{Created or Updated_1.current.bi_results}}=bi_expired</value>
+        <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
+    </sys_variable_value>
+</record_update>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="HR Results " max_length="40" name="x_clstu_hr_request_hr_results" type="collection"/>
+</database>

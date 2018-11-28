@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="hiring_documents_needed" label="Hiring Documents Needed" language="en" table="x_clstu_hr_request_background_investigation_results">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>hiring_documents_needed</element>
+            <help/>
+            <hint/>
+            <label>Hiring Documents Needed</label>
+            <language>en</language>
+            <name>x_clstu_hr_request_background_investigation_results</name>
+            <plural>Hiring Documents Needed</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2018-08-08 20:12:10</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>52d2183913bfd300ec6850622244b068</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Hiring Documents Needed</sys_name>
+            <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
+            <sys_update_name>sys_documentation_x_clstu_hr_request_background_investigation_results_hiring_documents_needed_en</sys_update_name>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2018-08-08 20:12:10</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

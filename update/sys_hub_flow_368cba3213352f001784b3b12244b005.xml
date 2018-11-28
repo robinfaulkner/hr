@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>hr_flow</internal_name>
+        <label_cache>[{"name":"5b8a9ea4-9937-4b8f-a122-76d8b02f7c09.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"5b8a9ea4-9937-4b8f-a122-76d8b02f7c09.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"Created or Updated_1.current","label":"Trigger➛Background Investigation Results Record","reference":"x_clstu_hr_request_background_investigation_results","reference_display":"Background Investigation Results","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.bi_results","label":"Trigger➛Background Investigation Results Record➛Candidate BI Results","reference":"","reference_display":"Candidate BI Results","type":"choice","base_type":"choice","parent_table_name":"x_clstu_hr_request_background_investigation_results","column_name":"bi_results"},{"name":"Created or Updated_1.current.request_number","label":"Trigger➛Background Investigation Results Record➛Request Number","reference":"x_clstu_hr_request_background_investigation","reference_display":"Request Number","type":"reference","base_type":"reference","parent_table_name":"x_clstu_hr_request_background_investigation_results","column_name":"request_number"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>HR Flow</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2018-11-19 21:13:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>368cba3213352f001784b3b12244b005</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>HR Flow</sys_name>
+        <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
+        <sys_update_name>sys_hub_flow_368cba3213352f001784b3b12244b005</sys_update_name>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2018-11-19 21:16:33</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="delete_multiple" query="document_key=368cba3213352f001784b3b12244b005"/>
+</record_update>

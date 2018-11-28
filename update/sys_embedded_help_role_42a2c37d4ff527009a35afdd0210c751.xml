@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_clstu_hr_request.hr_results_user" name="x_clstu_hr_request.hr_results_user">8ea2c37d4ff527009a35afdd0210c74e</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>mkocher</sys_created_by>
+        <sys_created_on>2018-11-16 19:05:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>42a2c37d4ff527009a35afdd0210c751</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8ea2c37d4ff527009a35afdd0210c74e</sys_name>
+        <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
+        <sys_update_name>sys_embedded_help_role_42a2c37d4ff527009a35afdd0210c751</sys_update_name>
+        <sys_updated_by>mkocher</sys_updated_by>
+        <sys_updated_on>2018-11-16 19:05:52</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

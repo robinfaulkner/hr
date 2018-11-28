@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>203</order>
+        <question display_value="Candidate BI Results">df93714d137f1300ec6850622244b05e</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2018-08-28 20:35:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c2e79fc413d8a740ec6850622244b08c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Background Request Expired - Candidate did not submit to request</sys_name>
+        <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
+        <sys_update_name>question_choice_c2e79fc413d8a740ec6850622244b08c</sys_update_name>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2018-08-28 20:35:33</sys_updated_on>
+        <text>Background Request Expired - Candidate did not submit to request</text>
+        <value>bi_expired</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=c2e79fc413d8a740ec6850622244b08c"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>c2e79fc413d8a740ec6850622244b08c</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2018-08-28 20:35:33</sys_created_on>
+        <sys_id>3bf7170813d8a740ec6850622244b0f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2018-08-28 20:35:33</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>c2e79fc413d8a740ec6850622244b08c</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2018-08-28 20:35:33</sys_created_on>
+        <sys_id>fff7170813d8a740ec6850622244b0ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2018-08-28 20:35:33</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

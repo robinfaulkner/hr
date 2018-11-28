@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"activities":{},"subflows":[],"stages":{},"ends":["87eeeef9135963401784b3b12244b072"]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type>run_match</condition_type>
+        <description/>
+        <expected_sequences>c7eeeef9135963401784b3b12244b071,07eeeef9135963401784b3b12244b073,82feaef9135963401784b3b12244b06d,87eeeef9135963401784b3b12244b072</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>c7eeeef9135963401784b3b12244b071,07eeeef9135963401784b3b12244b073,82feaef9135963401784b3b12244b06d,87eeeef9135963401784b3b12244b072</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>HR Request</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">c7eeeef9135963401784b3b12244b071</start>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2018-10-22 21:08:15</sys_created_on>
+        <sys_id>0feeeaf9135963401784b3b12244b0fc</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2018-10-22 21:10:25</sys_updated_on>
+        <table>x_clstu_hr_request_background_investigation_results</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="HR Request">384ddc641311af001784b3b12244b06a</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>HR Request</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2018-10-18 13:19:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>384ddc641311af001784b3b12244b06a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
+        <sys_update_name>wf_workflow_384ddc641311af001784b3b12244b06a</sys_update_name>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2018-10-18 13:19:26</sys_updated_on>
+        <table>x_clstu_hr_request_background_investigation_results</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Wait for condition">d93a02ae0a0a0aa30077abad3fdac035</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>7</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name/>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2018-10-22 21:08:15</sys_created_on>
+        <sys_id>07eeeef9135963401784b3b12244b073</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2018-10-22 21:08:15</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="HR Request">0feeeaf9135963401784b3b12244b0fc</workflow_version>
+        <x>547</x>
+        <y>132</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=07eeeef9135963401784b3b12244b073"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>07eeeef9135963401784b3b12244b073</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2018-10-22 21:08:15</sys_created_on>
+        <sys_id>43eeeef9135963401784b3b12244b074</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2018-10-22 21:08:15</sys_updated_on>
+        <value>bi_results=cleared^ORbi_results=bi_expired^EQ</value>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>07eeeef9135963401784b3b12244b073</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2018-10-22 21:08:15</sys_created_on>
+        <sys_id>8beeeef9135963401784b3b12244b073</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2018-10-22 21:08:15</sys_updated_on>
+        <value>//Query for all tasks to see if they are inactive&#13;
+var rec = new GlideRecord('x_clstu_hr_request_background_investigation_results');&#13;
+rec.addQuery('x_clstu_hr_request_background_investigation', current.sys_id);&#13;
+rec.addQuery('active', true);&#13;
+rec.query();&#13;
+if(rec.hasNext()){&#13;
+answer = false;&#13;
+}&#13;
+else{&#13;
+//Continue&#13;
+answer = true;&#13;
+}&#13;
+</value>
+        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>07eeeef9135963401784b3b12244b073</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2018-10-22 21:08:15</sys_created_on>
+        <sys_id>43eeeef9135963401784b3b12244b074</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2018-10-22 21:08:15</sys_updated_on>
+        <value>bi_results=cleared^ORbi_results=bi_expired^EQ</value>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>07eeeef9135963401784b3b12244b073</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2018-10-22 21:08:15</sys_created_on>
+        <sys_id>8beeeef9135963401784b3b12244b073</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2018-10-22 21:08:15</sys_updated_on>
+        <value>//Query for all tasks to see if they are inactive&#13;
+var rec = new GlideRecord('x_clstu_hr_request_background_investigation_results');&#13;
+rec.addQuery('x_clstu_hr_request_background_investigation', current.sys_id);&#13;
+rec.addQuery('active', true);&#13;
+rec.query();&#13;
+if(rec.hasNext()){&#13;
+answer = false;&#13;
+}&#13;
+else{&#13;
+//Continue&#13;
+answer = true;&#13;
+}&#13;
+</value>
+        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="">07eeeef9135963401784b3b12244b073</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2018-10-22 21:08:15</sys_created_on>
+        <sys_id>c7eeeef9135963401784b3b12244b074</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2018-10-22 21:08:15</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>8</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name/>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2018-10-22 21:09:05</sys_created_on>
+        <sys_id>82feaef9135963401784b3b12244b06d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2018-10-22 21:09:07</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="HR Request">0feeeaf9135963401784b3b12244b0fc</workflow_version>
+        <x>817</x>
+        <y>142</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=82feaef9135963401784b3b12244b06d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>82feaef9135963401784b3b12244b06d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2018-10-22 21:09:05</sys_created_on>
+        <sys_id>db1feef9135963401784b3b12244b0c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2018-10-22 21:09:05</sys_updated_on>
+        <value>request_number.state=3^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>82feaef9135963401784b3b12244b06d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2018-10-22 21:09:05</sys_created_on>
+        <sys_id>db1feef9135963401784b3b12244b0c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2018-10-22 21:09:05</sys_updated_on>
+        <value>request_number.state=3^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="">82feaef9135963401784b3b12244b06d</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2018-10-22 21:09:05</sys_created_on>
+        <sys_id>571feef9135963401784b3b12244b0c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2018-10-22 21:09:05</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2018-10-22 21:08:15</sys_created_on>
+        <sys_id>c7eeeef9135963401784b3b12244b071</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2018-10-22 21:08:15</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="HR Request">0feeeaf9135963401784b3b12244b0fc</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=c7eeeef9135963401784b3b12244b071"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">c7eeeef9135963401784b3b12244b071</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2018-10-22 21:08:15</sys_created_on>
+        <sys_id>03eeeef9135963401784b3b12244b072</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2018-10-22 21:08:15</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2018-10-22 21:08:15</sys_created_on>
+        <sys_id>87eeeef9135963401784b3b12244b072</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2018-10-22 21:08:15</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="HR Request">0feeeaf9135963401784b3b12244b0fc</workflow_version>
+        <x>981</x>
+        <y>662</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=87eeeef9135963401784b3b12244b072"/>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">571feef9135963401784b3b12244b0c2</condition>
+        <from display_value="">82feaef9135963401784b3b12244b06d</from>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2018-10-22 21:09:07</sys_created_on>
+        <sys_id>231f2ef9135963401784b3b12244b0d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2018-10-22 21:09:07</sys_updated_on>
+        <to display_value="End">87eeeef9135963401784b3b12244b072</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">c7eeeef9135963401784b3b12244b074</condition>
+        <from display_value="">07eeeef9135963401784b3b12244b073</from>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2018-10-22 21:08:15</sys_created_on>
+        <sys_id>c7eeeef9135963401784b3b12244b075</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2018-10-22 21:09:07</sys_updated_on>
+        <to display_value="">82feaef9135963401784b3b12244b06d</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">03eeeef9135963401784b3b12244b072</condition>
+        <from display_value="Begin">c7eeeef9135963401784b3b12244b071</from>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2018-10-22 21:08:15</sys_created_on>
+        <sys_id>cbeeeef9135963401784b3b12244b075</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2018-10-22 21:08:15</sys_updated_on>
+        <to display_value="">07eeeef9135963401784b3b12244b073</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2018-10-22 21:08:15</sys_created_on>
+        <sys_id>cfeeeaf9135963401784b3b12244b0fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2018-10-22 21:08:15</sys_updated_on>
+        <workflow_version display_value="HR Request">0feeeaf9135963401784b3b12244b0fc</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=384ddc641311af001784b3b12244b06a^sys_id!=0feeeaf9135963401784b3b12244b0fc">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>
