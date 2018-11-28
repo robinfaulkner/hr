@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>false</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_clstu_hr_request_background_investigation</collection>
+        <condition table="x_clstu_hr_request_background_investigation">state=3^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>approval.cancelled</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">Hi ${first_name_of_candidate} ${last_name_of_candidate},<br /><br /><br /> &nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="font-size: 10.5pt; font-family: Helvetica-Normal; color: red;">PLEASE READ CANDIDATE ACTIONS NEEDED AS WELL AS IMPORTANT INFORMATION HEREIN</span></strong><span style="font-size: 10.5pt; font-family: Helvetica-Normal; color: red;">.</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">Note this is an <u>automated communication</u> being sent by Clayton State University Human Resources.</span></strong></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">You are being sent this email since a Background Investigation (BI) was requested for you by the below referenced hiring manager for the Department for which you have applied. Please note, Human Resources has completed initiated a Background Investigation (BI) to you.&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">Candidate Name</span></strong><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">:&nbsp;${first_name_of_candidate} ${last_name_of_candidate}</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">Candidate eMail</span></strong><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">:&nbsp;${candidate_e_mail_address}<br /> <strong>Position Applied</strong>:&nbsp;${position_applied}</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">Background Investigation Order Initiated to Candidate</span></strong><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">:&nbsp;${closed_at}</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">Hiring Manager</span></strong><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">: ${hiring_manager}</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">SterlingOne is Clayton State University's Background Investigations Vendor (P-Card Investigations are processed through HR TruCheck).</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">Next Steps: You, the candidate, will obtain an automated email concerning the BI, from the sender University System of Georgia from the email address&nbsp;<a style="color: #0563c1; text-decoration: underline;" href="mailto:DoNotReply@talentwise.com">DoNotReply@talentwise.com</a>.&nbsp; </span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;"><strong>You must complete, sign and return to HR, the Security Questionnaire and Loyalty Oath form linked below within 72 business hours (3 Business Days) from the date of this email (volunteers do not need to complete this form). Delays in completing and returning this form will delay the BI and hiring.&nbsp; The document is linked here for your convenience:&nbsp;</strong></span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">Security Questionnaire and Loyalty Oath:&nbsp;<a style="color: #0563c1; text-decoration: underline;" href="http://www.clayton.edu/Portals/24/BORSEQUESTION%2011092007%202017%2001.10.17.pdf">http://www.clayton.edu/Portals/24/BORSEQUESTION%2011092007%202017%2001.10.17.pdf</a></span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">You MUST also</span></strong><span style="font-size: 10.5pt; font-family: Helvetica-Normal;"> log in to the SterlingOne BI portal with the email address you provided (indicated above) and the temporary passcode you were provided by SterlingOne. Once you proceed through the required steps and create a private password you will gain access to your SterlingOne BI portal, where you must complete a variety of tasks <strong><u>within five (5) business days</u></strong> in order to commence the processing of your BI.&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">Note</span></strong><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">: Background Investigations can take anywhere from 5-7 business days to process. While you may receive a &ldquo;completed&rdquo; email from SterlingOne. Human Resources is the reviewing and final authority, which means HR must review and issue the final disposition to the Hiring Manager.</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">If you fail to complete your BI prior to the expiration, the BI request is automatically canceled.&nbsp; If canceled, the <strong>hiring manager must resubmit</strong> the request and you, <strong>the candidate must recomplete the required documents</strong>.</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">Background Investigations may be comprised of, but not limited to, one or more of the following checks:</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Criminal History&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Social Security Number/Name Trace&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Federal and State Criminal History Search</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Multi-State Sex Offender Search&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; National Database Watch List Scan&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Academic/Education Credentials&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Credit History</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Motor Vehicle History Search</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">&bull;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Drug &amp; Alcohol Testing</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">Drug &amp; Alcohol Testing Policy: <a style="color: #0563c1; text-decoration: underline;" title="Clayton State University Drug Screening Policy" href="http://www.clayton.edu/human-resources/Drug-Screening-Policy" target="_blank">Clayton State University Drug Screening Policy</a></span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">If the candidate requires a P-Card Investigation the hiring manager and candidate will need to complete the Background Investigation Form and return it to HR:&nbsp;<a style="color: #0563c1; text-decoration: underline;" title="P-Card Background Screening Consent Form" href="http://www.clayton.edu/Portals/24/docs/2016%20HR/2016%20CSU%20Background%20Consent%20Form%20Revised%2092016.pdf" target="_blank">P-Card Background Screening Consent Form</a></span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">Minors on Campus Policy and Procedures: <a style="color: #0563c1; text-decoration: underline;" title="Minors on Campus Policy" href="http://www.clayton.edu/human-resources/Minor-on-Campus">Minors on Campus Policy</a></span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">University System of Georgia/Board of Regents Background Investigation Policy:&nbsp;<a style="color: #0563c1; text-decoration: underline;" href="http://www.usg.edu/hr/manual/background_investigation">http://www.usg.edu/hr/manual/background_investigation</a></span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">If you have any questions, please feel free to contact Human Resources at 678-466-4230.</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">Thank you,&nbsp;&nbsp;&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">Department of Human Resources&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.5pt; font-family: Helvetica-Normal;">Phone: 678.466.4230 | Fax: 678.466.4239</span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>BI Submitted Notification - Applicant</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>candidate_e_mail_address</recipient_fields>
+        <recipient_groups>f7485d154f171b04e448d48e5210c758,3939cf514fb423800b2fb3318110c7d0</recipient_groups>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>SterlingOne BI Initiation and Information: ${first_name_of_candidate} ${last_name_of_candidate}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2018-10-22 20:47:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>571a2abd4f9927040b2fb3318110c741</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>BI Submitted Notification - Applicant</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
+        <sys_update_name>sysevent_email_action_571a2abd4f9927040b2fb3318110c741</sys_update_name>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2018-10-22 20:50:30</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

@@ -8,7 +8,9 @@
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_clstu_hr_request_background_investigation_results</collection>
-        <condition/>
+        <condition table="x_clstu_hr_request_background_investigation_results">bi_resultsINcleared,not_cleared,bi_expired^EQ<item endquery="false" field="bi_results" goto="false" newquery="false" operator="IN" or="false" value="cleared,not_cleared,bi_expired"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
         <content_type>text/html</content_type>
         <default_interval/>
         <description/>
@@ -36,31 +38,30 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">Hi ${request_number.hiring_manager},</div>
-<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">&nbsp;</div>
-<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">HIRING MANAGER ACTION NEEDED.</div>
-<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">&nbsp;</div>
-<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">We ask that you do not forward this email to candidates, this message is intended for the department hiring manager or designee(s) only.&nbsp;&nbsp;Note this is an automated communication being sent by Human Resources.</div>
-<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">&nbsp;</div>
-<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">CANDIDATES CAN NOT BEGIN WORKING UNTIL HR PROVIDES THE HIRING MANAGER WITH FINAL CLEARANCE ALONG WITH THE ELIGIBLE START DATE IN WRITING VIA EMAIL.</div>
-<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">&nbsp;</div>
-<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">The background investigation for the following individual has been processed and approved. If applicable, please have the candidate report to Human Resources in order to complete their Hiring Packet. Below is a link to the forms as well as the specific forms they will need to complete at least 5-7 days before their anticipated date of hire. Please advise the candidate of the University&rsquo;s participation in the Federal e-Verify program which requires us to verify their employment status with Homeland Security, as well as the BOR Policy for Direct Deposit.</div>
-<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">&nbsp;</div>
-<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">Candidate: ${request_number.first_name_of_candidate} ${request_number.last_name_of_candidate}</div>
-<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">Candidate BI Results: ${bi_results}</div>
-<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">&nbsp;</div>
-<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">Hiring Documents Needed: PAF &amp; New Hire Packet</div>
-<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">&nbsp;</div>
-<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">Please further note, the manager of the candidate(s) will need to submit a PAF in order to commence the hiring process. Please see links below for the Personnel Action Form (PAF) and New Hire Packets. If an Offer Letter is applicable, please contact Maisie Kocher. For Accounting and Budget information please contact Scott McElroy.</div>
-<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">&nbsp;</div>
-<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; New Hire Packets:&nbsp;&nbsp;<a href="http://www.clayton.edu/human-resources/Forms/New-Hire-Packets">http://www.clayton.edu/human-resources/Forms/New-Hire-Packets</a></div>
-<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Personnel Action Form (PAF):<span class="Apple-converted-space">&nbsp;</span><a href="http://www.clayton.edu/Portals/24/docs/personnel-action-form-PAF.pdf">http://www.clayton.edu/Portals/24/docs/personnel-action-form-PAF.pdf</a></div>
-<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">&nbsp;</div>
-<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">If we can assist you in any other way, please feel free to contact us.</div>
-<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">&nbsp;</div>
-<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">Thank you,</div>
-<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">Human Resources</div>
-<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">o: 678.466.4230 | f: 678.466.4239</div>]]></message_html>
+        <message_html><![CDATA[<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: #000000; text-size-adjust: auto;"><span style="font-family: helvetica;">&nbsp;Hi ${request_number.hiring_manager},<span class="Apple-converted-space">&nbsp;</span></span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Helvetica-Normal; caret-color: #000000; text-size-adjust: auto;"><span style="font-family: helvetica;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Helvetica-Normal; caret-color: #000000; text-size-adjust: auto;"><span style="font-family: helvetica;"><span style="color: #ff0000;"><strong>CANDIDATES <span style="text-decoration: underline;">CAN NOT</span> BEGIN WORKING UNTIL HUMAN RESOURCES PROVIDES THE HIRING MANAGER WITH FINAL CLEARANCE ALONG WITH THE ELIGIBLE START DATE IN WRITING VIA EMAIL.</strong></span></span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Helvetica-Normal; caret-color: #000000; text-size-adjust: auto;">&nbsp;</p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Helvetica-Normal; caret-color: #000000; text-size-adjust: auto;"><span style="font-family: helvetica;"><strong>Note this is an automated communication being sent by Human Resources.&nbsp;</strong></span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Helvetica-Normal; caret-color: #000000; text-size-adjust: auto;"><span style="font-family: helvetica;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Helvetica-Normal; caret-color: #000000; text-size-adjust: auto;"><span style="font-family: helvetica;"><strong><span style="color: #ff0000;">HIRING MANAGER ACTION NEEDED.</span></strong> We ask that you do not forward this email to candidates, this message is intended for the department hiring manager or designee(s) only.&nbsp; The Background Investigation for the following individual has been processed. Below are the results of the Background Investigation. If applicable, below is a link to the Hiring Packet that the referenced candidate will need to complete at least<span class="Apple-converted-space">&nbsp;</span><strong>5-7 days before their anticipated date of hire</strong>, please have the candidate report to Human Resources in person to return their completed and signed Hiring Packet. For cleared candidates, please also advise the candidate of the University&rsquo;s participation in the Federal e-Verify program which requires us to verify their employment status with Homeland Security, as well as the BOR Policy regarding Direct Deposit.<span class="Apple-converted-space">&nbsp;</span>For candidates who have not been cleared there is nothing further the hiring manager will need to do other than to inform the candidate that they have not been cleared for employment at Clayton State University.</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Helvetica-Normal; caret-color: #000000; text-size-adjust: auto;"><span style="font-family: helvetica;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Helvetica-Normal; caret-color: #000000; text-size-adjust: auto;"><span style="font-family: helvetica;"><strong>Candidate</strong>: ${request_number.first_name_of_candidate} ${request_number.last_name_of_candidate}</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Helvetica-Normal; caret-color: #000000; text-size-adjust: auto;"><span style="font-family: helvetica;"><strong>Candidate BI Results</strong>: ${bi_results}</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Helvetica-Normal; caret-color: #000000; text-size-adjust: auto;"><span style="font-family: helvetica;"> <strong>Documents/Action Needed</strong> : ${hiring_documents_needed}</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Helvetica-Normal; caret-color: #000000; text-size-adjust: auto;"><span style="font-family: helvetica;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Helvetica-Normal; caret-color: #000000; text-size-adjust: auto;"><span style="font-family: helvetica;"><strong>The manager of the candidate(s) will need to submit a PAF in order to commence the hiring process</strong>. Please see links below for the Personnel Action Form (PAF) and New Hire Packets. If an Offer Letter is applicable, please contact Human Resources. For Accounting and Budget information please contact Scott McElroy.&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Helvetica-Normal; caret-color: #000000; text-size-adjust: auto;"><span style="font-family: helvetica;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Helvetica-Normal; caret-color: #000000; text-size-adjust: auto;"><span style="font-family: helvetica;"><strong>New Hire Packets</strong>:&nbsp;<span class="Apple-converted-space">&nbsp;</span><a style="color: #954f72;" href="http://www.clayton.edu/human-resources/Forms/New-Hire-Packets"><span style="color: windowtext; text-decoration-line: none;">http://www.clayton.edu/human-resources/Forms/New-Hire-Packets</span></a></span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Helvetica-Normal; caret-color: #000000; text-size-adjust: auto;"><span style="font-family: helvetica;"><strong>Personnel Action Form (PAF)</strong>:<span class="Apple-converted-space">&nbsp;</span><a style="color: #954f72;" href="http://www.clayton.edu/Portals/24/docs/personnel-action-form-PAF.pdf"><span style="color: windowtext; text-decoration-line: none;">http://www.clayton.edu/Portals/24/docs/personnel-action-form-PAF.pdf</span></a></span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Helvetica-Normal; caret-color: #000000; text-size-adjust: auto;"><span style="font-family: helvetica;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Helvetica-Normal; caret-color: #000000; text-size-adjust: auto;"><span style="font-family: helvetica;">If we can assist you in any other way, please feel free to contact us.</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Helvetica-Normal; caret-color: #000000; text-size-adjust: auto;"><span style="font-family: helvetica;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Helvetica-Normal; caret-color: #000000; text-size-adjust: auto;"><span style="font-family: helvetica;">Thank you,&nbsp;&nbsp;<span class="Apple-converted-space">&nbsp;</span></span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Helvetica-Normal; caret-color: #000000; text-size-adjust: auto;"><span style="font-family: helvetica;">Human Resources</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Helvetica-Normal; caret-color: #000000; text-size-adjust: auto;"><span style="font-family: helvetica;">o: 678.466.4230 | f: 678.466.4239</span></p>
+</div>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Send BI Notification to Hiring Manager</name>
@@ -68,7 +69,7 @@
         <order>100</order>
         <push_message_only>false</push_message_only>
         <recipient_fields>request_number.hiring_manager</recipient_fields>
-        <recipient_groups/>
+        <recipient_groups>f7485d154f171b04e448d48e5210c758,3939cf514fb423800b2fb3318110c7d0</recipient_groups>
         <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
@@ -83,7 +84,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>eac5fd4113bf1300ec6850622244b038</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Send BI Notification to Hiring Manager</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
@@ -91,8 +92,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
         <sys_update_name>sysevent_email_action_eac5fd4113bf1300ec6850622244b038</sys_update_name>
-        <sys_updated_by>rfaulkner1</sys_updated_by>
-        <sys_updated_on>2018-08-06 19:35:41</sys_updated_on>
+        <sys_updated_by>nyallah</sys_updated_by>
+        <sys_updated_on>2018-10-25 17:24:51</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

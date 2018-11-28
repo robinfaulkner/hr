@@ -12,7 +12,7 @@
         <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
         <quick_start_config/>
         <sc_catalog display_value="Human Resources Service Catalog">6bde5dd1139bdb44ec6850622244b0e1</sc_catalog>
-        <sc_catalog_page display_value="sc_view">70f7ca2047101200ba13a5554ee490ff</sc_catalog_page>
+        <sc_catalog_page display_value="sc_category">07261a2147132100ba13a5554ee49092</sc_catalog_page>
         <sc_category_page/>
         <sp_chat_queue/>
         <sp_rectangle_menu display_value="Procurement Catalog">51ae63564f92b600e448d48e5210c796</sp_rectangle_menu>
@@ -22,7 +22,7 @@
         <sys_created_on>2018-07-13 16:21:43</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>7064ad594f571b04e448d48e5210c722</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Human Resources Service Portal</sys_name>
         <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
         <sys_policy/>
@@ -30,7 +30,7 @@
         <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
         <sys_update_name>sp_portal_7064ad594f571b04e448d48e5210c722</sys_update_name>
         <sys_updated_by>rfaulkner1</sys_updated_by>
-        <sys_updated_on>2018-07-13 16:34:48</sys_updated_on>
+        <sys_updated_on>2018-10-18 20:04:16</sys_updated_on>
         <theme display_value="Procurement">096fbbaa4f5ab600e448d48e5210c74b</theme>
         <title>Human Resources Service Portal</title>
         <url_suffix>hr</url_suffix>

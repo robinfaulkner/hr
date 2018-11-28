@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="hiring_documents_needed" table="x_clstu_hr_request_background_investigation_results" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hiring_documents_needed</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Resubmit the BI Request, if applicable</label>
+            <language>en</language>
+            <name>x_clstu_hr_request_background_investigation_results</name>
+            <sequence/>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2018-08-28 20:37:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>21789f0813d8a740ec6850622244b05c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2018-08-28 20:37:50</sys_updated_on>
+            <value>bi_expired</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hiring_documents_needed</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Security Questionnaire and Loyalty Oath</label>
+            <language>en</language>
+            <name>x_clstu_hr_request_background_investigation_results</name>
+            <sequence/>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2018-08-28 20:37:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0058df0813d8a740ec6850622244b00f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2018-08-28 20:37:25</sys_updated_on>
+            <value>security_question</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hiring_documents_needed</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New Hire Packet</label>
+            <language>en</language>
+            <name>x_clstu_hr_request_background_investigation_results</name>
+            <sequence>0</sequence>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2018-08-08 20:13:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c703143913bfd300ec6850622244b0db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2018-08-08 20:13:03</sys_updated_on>
+            <value>New Hire Packet</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>hiring_documents_needed</element>
+            <name>x_clstu_hr_request_background_investigation_results</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>rfaulkner1</sys_created_by>
+            <sys_created_on>2018-08-08 20:12:11</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>dad2983913bfd300ec6850622244b0d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>hiring_documents_needed</sys_name>
+            <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
+            <sys_update_name>sys_choice_x_clstu_hr_request_background_investigation_results_hiring_documents_needed</sys_update_name>
+            <sys_updated_by>rfaulkner1</sys_updated_by>
+            <sys_updated_on>2018-08-08 20:12:11</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

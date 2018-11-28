@@ -27,11 +27,11 @@
         <instructions/>
         <layout>normal</layout>
         <list_table/>
-        <lookup_label/>
+        <lookup_label>number, position_applied,  first_name_of_candidate, last_name_of_candidate</lookup_label>
         <lookup_price/>
-        <lookup_table/>
+        <lookup_table>x_clstu_hr_request_background_investigation</lookup_table>
         <lookup_unique>false</lookup_unique>
-        <lookup_value/>
+        <lookup_value>sys_id</lookup_value>
         <macro/>
         <mandatory>false</mandatory>
         <map_to_field>true</map_to_field>
@@ -48,8 +48,10 @@
         <record/>
         <record_producer_table>x_clstu_hr_request_background_investigation_results</record_producer_table>
         <reference>x_clstu_hr_request_background_investigation</reference>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference_qual>state=3</reference_qual>
+        <reference_qual_condition table="x_clstu_hr_request_background_investigation">state=3^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
         <show_help>false</show_help>
@@ -61,7 +63,7 @@
         <sys_created_on>2018-08-06 19:19:30</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>1b9379c9137f1300ec6850622244b058</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Request Number</sys_name>
         <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
         <sys_policy/>
@@ -69,13 +71,13 @@
         <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
         <sys_update_name>item_option_new_1b9379c9137f1300ec6850622244b058</sys_update_name>
         <sys_updated_by>rfaulkner1</sys_updated_by>
-        <sys_updated_on>2018-08-06 19:19:30</sys_updated_on>
+        <sys_updated_on>2018-10-22 15:13:42</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>8</type>
+        <type>18</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
         <variable_name/>
         <variable_set/>
         <variable_width/>

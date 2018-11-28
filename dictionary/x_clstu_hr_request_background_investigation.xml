@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="Background Investigation Request" max_length="40" name="x_clstu_hr_request_background_investigation" sizeclass="24" type="collection">
+    <element audit="true" extends="task" label="Background Investigation Request" max_length="40" name="x_clstu_hr_request_background_investigation" sizeclass="332" type="collection">
         <element label="Candidate e-Mail Address" max_length="100" name="candidate_e_mail_address" type="string"/>
         <element label="First Name of Candidate" max_length="50" name="first_name_of_candidate" type="string"/>
         <element label="Hiring Department" max_length="100" name="hiring_department" type="string"/>
