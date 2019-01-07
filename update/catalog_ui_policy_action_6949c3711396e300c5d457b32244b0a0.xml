@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="HR Form Tracker">78e2c32d4f1e6f000b2fb3318110c7d0</catalog_item>
+        <catalog_variable>IO:6de2c72d4f1e6f000b2fb3318110c787</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2018-12-11 16:07:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6949c3711396e300c5d457b32244b0a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>if_other_please_specify_document_type</sys_name>
+        <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_6949c3711396e300c5d457b32244b0a0</sys_update_name>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2018-12-11 16:07:15</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show/Hide Other Doc Type">a019cf311396e300c5d457b32244b000</ui_policy>
+        <variable>if_other_please_specify_document_type</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

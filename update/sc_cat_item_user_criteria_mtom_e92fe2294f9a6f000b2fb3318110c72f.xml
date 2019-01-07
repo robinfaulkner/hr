@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Direct Deposit">6f9c2aa14f9a6f000b2fb3318110c78a</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>mkocher</sys_created_by>
+        <sys_created_on>2018-12-10 19:33:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e92fe2294f9a6f000b2fb3318110c72f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Direct Deposit.HR</sys_name>
+        <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_e92fe2294f9a6f000b2fb3318110c72f</sys_update_name>
+        <sys_updated_by>mkocher</sys_updated_by>
+        <sys_updated_on>2018-12-10 19:33:42</sys_updated_on>
+        <user_criteria display_value="HR">d63c2bf513437640ec6850622244b0eb</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>

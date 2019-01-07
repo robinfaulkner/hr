@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sysevent_email_action">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>false</action_insert>
         <action_update>true</action_update>
@@ -38,12 +37,14 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Helvetica-Normal; caret-color: #000000; text-size-adjust: auto;">Hi&nbsp;${hiring_manager},<br />&nbsp;</p>
+        <message_html><![CDATA[<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Helvetica-Normal; caret-color: #000000; text-size-adjust: auto;"><img style="align: top;" title="" src="HR%20Mail%20Logo.pngx" alt="HR Email logo" align="top" border="" hspace="" vspace="" /></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Helvetica-Normal; caret-color: #000000; text-size-adjust: auto;">&nbsp;</p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Helvetica-Normal; caret-color: #000000; text-size-adjust: auto;">Hi&nbsp;${hiring_manager},<br />&nbsp;</p>
 <p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Helvetica-Normal; caret-color: #000000; text-size-adjust: auto;"><strong><span style="font-size: 11pt; font-family: Helvetica, sans-serif; color: red;">PLEASE READ HIRING MANAGER/CANDIDATE ACTIONS NEEDED AS WELL AS IMPORTANT INFORMATION HEREIN</span></strong><span style="font-size: 11pt; font-family: Helvetica, sans-serif;">.</span></p>
 <p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif; caret-color: #000000; text-size-adjust: auto;"><span style="font-size: 11pt; font-family: Helvetica, sans-serif;">&nbsp;</span></p>
 <p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif; caret-color: #000000; text-size-adjust: auto;"><strong><span style="font-size: 11pt; font-family: Helvetica, sans-serif;">Note this is an <span style="text-decoration: underline;">automated communication</span> being sent by Human Resources. Candidates</span></strong><span class="apple-converted-space"><strong><span style="font-size: 11pt; font-family: Helvetica, sans-serif;">&nbsp;</span></strong></span><span style="text-decoration: underline;"><strong><span style="color: red; font-family: Helvetica,sans-serif; font-size: 11pt; text-decoration: underline;">cannot</span></strong></span><span class="apple-converted-space"><strong><span style="font-size: 11pt; font-family: Helvetica, sans-serif;">&nbsp;</span></strong></span><strong><span style="font-size: 11pt; font-family: Helvetica, sans-serif;">begin working until Human Resources provides written (via email) confirmation to the Hiring Manager with final clearance that the candidate may begin working along with the eligible start date, in accordance with the <a title="Payroll Schedule" href="http://www.clayton.edu/payroll/Payroll-Schedule" target="_blank">Payroll Schedule</a>.</span></strong></p>
 <p style="margin: 0in 0in 0.0001pt; font-size: 12pt; font-family: 'Times New Roman', serif; caret-color: #000000; text-size-adjust: auto;"><span style="font-size: 11pt; font-family: Helvetica-Normal;">&nbsp;</span></p>
-<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Helvetica-Normal; caret-color: #000000; text-size-adjust: auto;">You are being sent this email since you are either the hiring manager and/or you have requested a Background Investigation (BI) for the referenced candidate.&nbsp; Please note, Human Resources has completed your request and initiated a Background Investigation (BI) to the referenced candidate.&nbsp;</p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Helvetica-Normal; caret-color: #000000; text-size-adjust: auto;">You are being sent this email since you are either the hiring manager and/or you have requested a Background Investigation (BI) for the referenced candidate.&nbsp; Please note, Human Resources has completed your request and initiated a Background Investigation (BI) to the referenced candidate. <span style="color: #ff0000;"><strong>Please note, new hire paperwork and other associated paperwork will NOT be accepted <span style="text-decoration: underline;">until HR renders a background check cleared confirmation</span> to the Hiring Manager, this statement excludes the <span style="text-align: left; text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica-Normal; font-size: 14.66px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none; word-spacing: 0px; display: inline; white-space: normal; orphans: 2; float: none; -webkit-text-stroke-width: 0px; background-color: transparent;">Security Questionnaire and Loyalty Oath as indicated below</span>.&nbsp;</strong></span></p>
 <p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Helvetica-Normal; caret-color: #000000; text-size-adjust: auto;">&nbsp;</p>
 <p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Helvetica-Normal; caret-color: #000000; text-size-adjust: auto;"><strong>Candidate Name</strong>:<span class="Apple-converted-space">&nbsp;${first_name_of_candidate} ${last_name_of_candidate}</span></p>
 <p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Helvetica-Normal; caret-color: #000000; text-size-adjust: auto;"><strong>Candidate eMail</strong>:<span class="Apple-converted-space">&nbsp;</span>${candidate_e_mail_address}<span style="background-color: yellow;"><br /></span></p>
@@ -109,7 +110,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>575a6ade137f9700ec6850622244b0e8</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>BI Submitted Notification - HM</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
@@ -117,8 +118,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
         <sys_update_name>sysevent_email_action_575a6ade137f9700ec6850622244b0e8</sys_update_name>
-        <sys_updated_by>rfaulkner1</sys_updated_by>
-        <sys_updated_on>2018-10-22 20:46:55</sys_updated_on>
+        <sys_updated_by>mkocher</sys_updated_by>
+        <sys_updated_on>2018-12-05 21:07:55</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

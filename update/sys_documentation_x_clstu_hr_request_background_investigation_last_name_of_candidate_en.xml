@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="last_name_of_candidate" label="Last Name of Candidate" language="en" table="x_clstu_hr_request_background_investigation">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>last_name_of_candidate</element>

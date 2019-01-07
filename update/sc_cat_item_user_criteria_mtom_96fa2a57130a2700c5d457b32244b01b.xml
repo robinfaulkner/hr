@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="New Hire">507b5ed713462700c5d457b32244b070</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>rfaulkner1</sys_created_by>
+        <sys_created_on>2018-12-03 19:28:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>96fa2a57130a2700c5d457b32244b01b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Hire.HR View</sys_name>
+        <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_96fa2a57130a2700c5d457b32244b01b</sys_update_name>
+        <sys_updated_by>rfaulkner1</sys_updated_by>
+        <sys_updated_on>2018-12-03 19:28:59</sys_updated_on>
+        <user_criteria display_value="HR View">eab3b14d137f1300ec6850622244b0de</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>

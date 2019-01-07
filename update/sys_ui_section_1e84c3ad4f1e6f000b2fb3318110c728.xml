@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Form Routing Information" section_id="1e84c3ad4f1e6f000b2fb3318110c728" sys_domain="global" table="x_clstu_hr_request_hr_form_tracker" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>forwarded_to_budget</element>
+            <position>0</position>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 21:07:00</sys_created_on>
+            <sys_id>2684c3ad4f1e6f000b2fb3318110c78f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form Routing Information" display_value="Form Routing Information" name="x_clstu_hr_request_hr_form_tracker" sys_domain="global" view="Default view">1e84c3ad4f1e6f000b2fb3318110c728</sys_ui_section>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 21:07:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>received_from_budget</element>
+            <position>1</position>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 21:07:00</sys_created_on>
+            <sys_id>a684c3ad4f1e6f000b2fb3318110c78f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form Routing Information" display_value="Form Routing Information" name="x_clstu_hr_request_hr_form_tracker" sys_domain="global" view="Default view">1e84c3ad4f1e6f000b2fb3318110c728</sys_ui_section>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 21:07:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>forwarded_to_hr_director</element>
+            <position>2</position>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 21:07:00</sys_created_on>
+            <sys_id>2a84c3ad4f1e6f000b2fb3318110c78f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form Routing Information" display_value="Form Routing Information" name="x_clstu_hr_request_hr_form_tracker" sys_domain="global" view="Default view">1e84c3ad4f1e6f000b2fb3318110c728</sys_ui_section>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 21:07:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>received_from_hr_director</element>
+            <position>3</position>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 21:07:00</sys_created_on>
+            <sys_id>aa84c3ad4f1e6f000b2fb3318110c78f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form Routing Information" display_value="Form Routing Information" name="x_clstu_hr_request_hr_form_tracker" sys_domain="global" view="Default view">1e84c3ad4f1e6f000b2fb3318110c728</sys_ui_section>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 21:07:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 21:07:00</sys_created_on>
+            <sys_id>2e84c3ad4f1e6f000b2fb3318110c78f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form Routing Information" display_value="Form Routing Information" name="x_clstu_hr_request_hr_form_tracker" sys_domain="global" view="Default view">1e84c3ad4f1e6f000b2fb3318110c728</sys_ui_section>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 21:07:00</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>forwarded_to</element>
+            <position>5</position>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 21:07:00</sys_created_on>
+            <sys_id>ae84c3ad4f1e6f000b2fb3318110c78f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form Routing Information" display_value="Form Routing Information" name="x_clstu_hr_request_hr_form_tracker" sys_domain="global" view="Default view">1e84c3ad4f1e6f000b2fb3318110c728</sys_ui_section>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 21:07:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_forwarded</element>
+            <position>6</position>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 21:07:00</sys_created_on>
+            <sys_id>2284c3ad4f1e6f000b2fb3318110c790</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form Routing Information" display_value="Form Routing Information" name="x_clstu_hr_request_hr_form_tracker" sys_domain="global" view="Default view">1e84c3ad4f1e6f000b2fb3318110c728</sys_ui_section>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 21:07:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>received_from</element>
+            <position>7</position>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 21:07:00</sys_created_on>
+            <sys_id>a284c3ad4f1e6f000b2fb3318110c790</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form Routing Information" display_value="Form Routing Information" name="x_clstu_hr_request_hr_form_tracker" sys_domain="global" view="Default view">1e84c3ad4f1e6f000b2fb3318110c728</sys_ui_section>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 21:07:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_received</element>
+            <position>8</position>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 21:07:00</sys_created_on>
+            <sys_id>2684c3ad4f1e6f000b2fb3318110c790</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form Routing Information" display_value="Form Routing Information" name="x_clstu_hr_request_hr_form_tracker" sys_domain="global" view="Default view">1e84c3ad4f1e6f000b2fb3318110c728</sys_ui_section>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 21:07:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Form Routing Information</caption>
+            <header>false</header>
+            <name>x_clstu_hr_request_hr_form_tracker</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 21:06:59</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1e84c3ad4f1e6f000b2fb3318110c728</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Form Routing Information</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
+            <sys_update_name>sys_ui_section_1e84c3ad4f1e6f000b2fb3318110c728</sys_update_name>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 21:06:59</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

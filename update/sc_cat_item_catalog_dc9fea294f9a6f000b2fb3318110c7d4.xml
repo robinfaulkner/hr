@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Direct Deposit">6f9c2aa14f9a6f000b2fb3318110c78a</sc_cat_item>
+        <sc_catalog display_value="Human Resources Service Catalog">6bde5dd1139bdb44ec6850622244b0e1</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>mkocher</sys_created_by>
+        <sys_created_on>2018-12-10 19:35:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>dc9fea294f9a6f000b2fb3318110c7d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Human Resources Service Catalog.Direct Deposit</sys_name>
+        <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_dc9fea294f9a6f000b2fb3318110c7d4</sys_update_name>
+        <sys_updated_by>mkocher</sys_updated_by>
+        <sys_updated_on>2018-12-10 19:35:22</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

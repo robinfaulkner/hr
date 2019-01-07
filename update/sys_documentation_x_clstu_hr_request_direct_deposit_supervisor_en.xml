@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="supervisor" label="Supervisor" language="en" table="x_clstu_hr_request_direct_deposit">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>supervisor</element>
+            <help/>
+            <hint/>
+            <label>Supervisor</label>
+            <language>en</language>
+            <name>x_clstu_hr_request_direct_deposit</name>
+            <plural>Supervisors</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 19:21:47</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>417ca2a14f9a6f000b2fb3318110c7ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Supervisor</sys_name>
+            <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
+            <sys_update_name>sys_documentation_x_clstu_hr_request_direct_deposit_supervisor_en</sys_update_name>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 19:21:47</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

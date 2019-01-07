@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="New Hire" max_length="40" name="x_clstu_hr_request_new_hire" sizeclass="30" type="collection">
+        <element label="Additional Person to be Notified" max_length="32" name="additional_person_to_be_notified" reference="sys_user" type="reference"/>
+        <element label="Canidate Email Address" max_length="100" name="canidate_email_address" type="string"/>
+        <element label="Credentials Information" max_length="900" name="credentials_information" type="string"/>
+        <element label="Employee Name" max_length="32" name="employee_name" reference="sys_user" type="reference"/>
+        <element label="End of Employment Date" max_length="40" name="end_of_employment_date" type="glide_date"/>
+        <element label="Hiring Manager" max_length="32" name="hiring_manager" reference="sys_user" type="reference"/>
+        <element label="New Employee" max_length="32" name="new_employee" reference="sys_user" type="reference"/>
+        <element label="New Hire Orientation Date" max_length="40" name="new_hire_orientation_date" type="glide_date"/>
+        <element label="Reports to Manager" max_length="32" name="reports_to_manager" reference="sys_user" type="reference"/>
+        <element label="Request Number" max_length="32" name="request_number" reference="x_clstu_hr_request_background_investigation" reference_qual="state=3^sys_created_on&gt;=javascript:gs.beginningOfLast120Days()^EQ" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
+        <element label="Faculty Member" max_length="40" name="u_fac_member" type="boolean"/>
+    </element>
+</database>

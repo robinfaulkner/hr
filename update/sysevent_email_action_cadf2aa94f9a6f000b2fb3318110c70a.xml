@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_clstu_hr_request_direct_deposit</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>alert_priority.calc_priority_grouping</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><span style="font-family: Arial, sans-serif; font-size: 13.3333px;"><img style="align: top;" title="" src="HR%20Mail%20Logo.pngx" alt="HR Email logo" align="top" border="" hspace="" vspace="" /></span></p>
+<p><span style="font-family: Arial, sans-serif; font-size: 13.3333px;">Hello</span>:&nbsp;${employee}</p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;">You are receiving this email since as of this date our records show that your Direct Deposit via electronic funds transfer (EFT) has not been set up.&nbsp;<strong><span style="color: red;">Please note you must comply with the below no later than ten (10) business days or sooner, from the date of this notification. Failure to comply may result in policy enforcement.</span></strong></span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;">In accordance with the University System of Georgia policy on Employee Pay, Section 7.5.1.1 of the BOR Policy Manual&nbsp;<span style="color: #0563c1; text-decoration: underline;"><a style="color: #0563c1; text-decoration: underline;" href="https://www.usg.edu/business_procedures_manual/section5/C1235">https://www.usg.edu/business_procedures_manual/section5/C1235</a></span>&nbsp;which states that</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;">&ldquo;<em>Electronic funds transfer is the required method of payroll payments to employees&rdquo;. &ldquo;All employees are required to be paid by electronic funds transfer by authorizing the direct deposit of funds into their financial institution account within thirty (30) days of hire or rehire and should remain enrolled in direct deposit for the remainder of their employment. Generally, the financial institution must be a domestic bank. If you have employees outside of the United States, please consult the OneUSG Support for further guidance&hellip;.&rdquo;</em></span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><em><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;">&nbsp;</span></em></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;">The policy further reads<em>&hellip;</em>&nbsp;<em>Section 7.5.1.1 of the BOR Policy Manual states that an employee may be exempted from participating in direct deposit if he/she does not have an account at an automated clearing house (ACH) financial institution, and can provide evidence that he/she cannot obtain such an account. An employee desiring to request an exemption from the direct deposit requirement should complete a &ldquo;Direct Deposit Personal Exemption Request Form.&rdquo; The exemption request form should be maintained for one year after the employee&rsquo;s employment separation.</em></span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;">To comply you will need to complete the following forms as they apply and return to Human Resources within 5 business days of this notice. &nbsp;Failure to comply with this policy could lead to disciplinary action up to and including involuntary separation.</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="color: #0563c1; text-decoration: underline;"><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"><a style="color: #0563c1; text-decoration: underline;" href="http://www.clayton.edu/Portals/24/docs/Employee%20Authorization%20Direct%20Deposit%20Form.pdf?ver=2018-06-21-133052-863">USG Employee Authorization for Direct Deposit</a></span></span><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;">: This form authorizes Clayton State University Payroll Services to deposit your pay into the banking account and banking institution in which you designate. This form must be accompanied by a voided check or Direct Deposit Letter from your banking institution. Please complete and return to HR in person or via fax at 678-466-4239.</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="color: #0563c1; text-decoration: underline;"><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"><a style="color: #0563c1; text-decoration: underline;" href="http://www.clayton.edu/Portals/24/Direct_Deposit_Notif_Form.pdf">Direct Deposit Notification Form</a></span></span><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;">: This form notifies you of the requirement for Electronic Funds Transfer (EFT) via Direct Deposit. Please complete and return to HR in person of via fax at 678-466-4239.</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;">OR if you identify with an exemption from participating in the Direct Deposit requirement you will need to complete the below</span></strong><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;">:</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="color: #0563c1; text-decoration: underline;"><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;"><a style="color: #0563c1; text-decoration: underline;" href="http://www.clayton.edu/Portals/24/USG%20Direct%20Deposit%20Exemption%20UNBANKABLE.pdf">Direct Deposit Personal Exemption Request Form</a></span></span><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;">: This form must be completed if you qualify for an exemption as un-bankable. If applicable you will need to complete and supply any supporting documentation and return to HR in person.</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;">If you have questions, please feel free to call Human Resources at 678-466-4230.</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;">&nbsp;</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;">Clayton State University&nbsp;<br />Department of Payroll Services</span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;">o:&nbsp;</span></strong><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif;">678-466-4230<strong>&nbsp;| f:&nbsp;</strong>678-466-4239</span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Direct Deposit Notification to Employee</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>employee,supervisor</recipient_fields>
+        <recipient_groups/>
+        <recipient_users>humanresources@clayton.edu</recipient_users>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Direct Deposit Compliance Notification</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>mkocher</sys_created_by>
+        <sys_created_on>2018-12-10 19:44:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cadf2aa94f9a6f000b2fb3318110c70a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Direct Deposit Notification to Employee</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
+        <sys_update_name>sysevent_email_action_cadf2aa94f9a6f000b2fb3318110c70a</sys_update_name>
+        <sys_updated_by>mkocher</sys_updated_by>
+        <sys_updated_on>2018-12-11 15:35:56</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

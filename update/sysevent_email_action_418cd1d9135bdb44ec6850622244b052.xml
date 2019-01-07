@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sysevent_email_action">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>true</action_insert>
         <action_update>false</action_update>
@@ -36,7 +35,8 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Requestor Name: ${u_requestor_name}<br />Hiring Manager: ${hiring_manager}<br />Supervisor: ${supervisor}<br />First Name of Candidate: ${first_name_of_candidate}<br />Middle Name or Middle Initial of Candidate: ${middle_name_or_middle_initial_of_candidate}<br />Last Name of Candidate: ${last_name_of_candidate}<br />Position Applied: ${position_applied}<br />Proposed Employment Status: ${proposed_employment_status}<br />Candidate e-Mail Address: ${candidate_e_mail_address}<br />Proposed Employment Status: ${proposed_employment_status}<br />Is a P-Card required for this candidate: ${is_a_p_card_required}<br /> Is this Candidate associate with Minors on Campus?: ${u_minors}<br /> I acknowledge and agree to comply: ${i_acknoweldge_and_agree}</p>
+        <message_html><![CDATA[<p><img style="align: top;" title="" src="HR%20Mail%20Logo.pngx" alt="HR email logo" align="top" border="" hspace="" vspace="" /></p>
+<p>Requestor Name: ${u_requestor_name}<br />Hiring Manager: ${hiring_manager}<br />Supervisor: ${supervisor}<br />First Name of Candidate: ${first_name_of_candidate}<br />Middle Name or Middle Initial of Candidate: ${middle_name_or_middle_initial_of_candidate}<br />Last Name of Candidate: ${last_name_of_candidate}<br />Position Applied: ${position_applied}<br />Proposed Employment Status: ${proposed_employment_status}<br />Candidate e-Mail Address: ${candidate_e_mail_address}<br />Proposed Employment Status: ${proposed_employment_status}<br />Is a P-Card required for this candidate: ${is_a_p_card_required}<br /> Is this Candidate associate with Minors on Campus?: ${u_minors}<br /> I acknowledge and agree to comply: ${i_acknoweldge_and_agree}</p>
 <p>${URI}</p>]]></message_html>
         <message_list/>
         <message_text/>
@@ -60,7 +60,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>418cd1d9135bdb44ec6850622244b052</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>HR Background Check Submitted</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
@@ -68,8 +68,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
         <sys_update_name>sysevent_email_action_418cd1d9135bdb44ec6850622244b052</sys_update_name>
-        <sys_updated_by>rfaulkner1</sys_updated_by>
-        <sys_updated_on>2018-09-26 13:19:35</sys_updated_on>
+        <sys_updated_by>mkocher</sys_updated_by>
+        <sys_updated_on>2018-12-14 18:47:55</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

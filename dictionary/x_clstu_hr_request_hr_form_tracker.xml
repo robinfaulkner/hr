@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="HR Form Tracker" max_length="40" name="x_clstu_hr_request_hr_form_tracker" type="collection">
+        <element label="Additional Comments" max_length="500" name="additional_comments" type="string"/>
+        <element label="Date Filed" max_length="40" name="date_filed" type="glide_date_time"/>
+        <element label="Date Forwarded" max_length="40" name="date_forwarded" type="glide_date_time"/>
+        <element label="Date Received" max_length="40" name="date_received" type="glide_date_time"/>
+        <element choice="1" label="Document Type" max_length="40" name="document_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Direct Deposit" value="Direct Deposit"/>
+                <element inactive_on_update="false" label="Employee Supplemental Pay" value="Employee Supplemental Pay"/>
+                <element inactive_on_update="false" label="Employee Verification" value="Employee Verification"/>
+                <element inactive_on_update="false" label="Extra Comp" value="Extra Comp"/>
+                <element inactive_on_update="false" label="New Employee Packet" value="New Employee Packet"/>
+                <element inactive_on_update="false" label="Other" value="Other"/>
+                <element inactive_on_update="false" label="PAF" value="PAF"/>
+                <element inactive_on_update="false" label="PRF" value="PRF"/>
+                <element inactive_on_update="false" label="Security Questionnaire/Loyalty Oath" value="Security Questionnaire/Loyalty Oath"/>
+                <element inactive_on_update="false" label="TAP Application" value="TAP Application"/>
+            </choice>
+        </element>
+        <element choice="1" label="Does the form belong to an employee or candidate" max_length="40" name="does_the_form_belong_to_an_employee_or_candidate" type="choice">
+            <choice/>
+        </element>
+        <element label="Employee ID" max_length="32" name="employee_id" reference="sys_user" type="reference"/>
+        <element label="Employee Name" max_length="32" name="employee_name" reference="sys_user" type="reference"/>
+        <element choice="1" label="Filed in Employee Folder by" max_length="40" name="filed_in_employee_folder_by" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Ella Regis" value="Ella Regis"/>
+                <element inactive_on_update="false" label="Juan Cerda" value="Juan Cerda"/>
+                <element inactive_on_update="false" label="Samira Clunis" value="Samira Clunis"/>
+            </choice>
+        </element>
+        <element label="First Name" max_length="100" name="first_name" type="string"/>
+        <element label="Form Number" max_length="32" name="form_number" reference="x_clstu_hr_request_hr_form_tracker" type="reference"/>
+        <element choice="1" label="Forwarded to" max_length="40" name="forwarded_to" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Alesia Walk" value="Alesia Walk"/>
+                <element inactive_on_update="false" label="Barbara Colquitt" value="Barbara Colquitt"/>
+                <element inactive_on_update="false" label="Ella Regis" value="Ella Regis"/>
+                <element inactive_on_update="false" label="Harriett Houston" value="Harriett Houston"/>
+                <element inactive_on_update="false" label="Jeri Trenova" value="Jeri Trenova"/>
+                <element inactive_on_update="false" label="Juan Cerda" value="Juan Cerda"/>
+                <element inactive_on_update="false" label="Nikia Yallah" value="Nikia Yallah"/>
+                <element inactive_on_update="false" label="Samira Clunis" value="Samira Clunis"/>
+                <element inactive_on_update="false" label="Siatta Freeman" value="Siatta Freeman"/>
+                <element inactive_on_update="false" label="Tammy Wilson" value="Tammy Wilson"/>
+            </choice>
+        </element>
+        <element label="Forwarded to Budget" max_length="40" name="forwarded_to_budget" type="glide_date_time"/>
+        <element label="Forwarded to HR Director" max_length="40" name="forwarded_to_hr_director" type="glide_date_time"/>
+        <element label="If other, please specify document type" max_length="100" name="if_other_please_specify_document_type" type="string"/>
+        <element label="Last Name" max_length="100" name="last_name" type="string"/>
+        <element label="Middle Initial" max_length="5" name="middle_initial" type="string"/>
+        <element choice="1" label="Received from" max_length="40" name="received_from" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Alesia Walk" value="Alesia Walk"/>
+                <element inactive_on_update="false" label="Barbara Colquitt" value="Barbara Colquitt"/>
+                <element inactive_on_update="false" label="Ella Regis" value="Ella Regis"/>
+                <element inactive_on_update="false" label="Harriett Houston" value="Harriett Houston"/>
+                <element inactive_on_update="false" label="Jeri Trenova" value="Jeri Trenova"/>
+                <element inactive_on_update="false" label="Juan Cerda" value="Juan Cerda"/>
+                <element inactive_on_update="false" label="Nikia Yallah" value="Nikia Yallah"/>
+                <element inactive_on_update="false" label="Samira Clunis" value="Samira Clunis"/>
+                <element inactive_on_update="false" label="Siatta Freeman" value="Siatta Freeman"/>
+                <element inactive_on_update="false" label="Tammy Wilson" value="Tammy Wilson"/>
+            </choice>
+        </element>
+        <element label="Received from Budget" max_length="40" name="received_from_budget" type="glide_date_time"/>
+        <element label="Received from HR Director" max_length="40" name="received_from_hr_director" type="glide_date_time"/>
+        <element choice="1" label="What kind of form submission is this?" max_length="40" name="what_kind_of_form_submission_is_this" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New form submission" value="New form submission"/>
+                <element inactive_on_update="false" label="Updating a submitted form" value="Updating a submitted form"/>
+            </choice>
+        </element>
+    </element>
+</database>

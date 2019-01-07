@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="what_kind_of_form_submission_is_this" table="x_clstu_hr_request_hr_form_tracker" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>what_kind_of_form_submission_is_this</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New form submission</label>
+            <language>en</language>
+            <name>x_clstu_hr_request_hr_form_tracker</name>
+            <sequence/>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-11 17:40:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e0bed7754f92ef000b2fb3318110c705</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-11 17:40:09</sys_updated_on>
+            <value>New form submission</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>what_kind_of_form_submission_is_this</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Updating a submitted form</label>
+            <language>en</language>
+            <name>x_clstu_hr_request_hr_form_tracker</name>
+            <sequence/>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-11 17:40:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>00ded7754f92ef000b2fb3318110c783</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-11 17:40:57</sys_updated_on>
+            <value>Updating a submitted form</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>what_kind_of_form_submission_is_this</element>
+            <name>x_clstu_hr_request_hr_form_tracker</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-11 17:40:09</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>1eced7754f92ef000b2fb3318110c7cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>what_kind_of_form_submission_is_this</sys_name>
+            <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
+            <sys_update_name>sys_choice_x_clstu_hr_request_hr_form_tracker_what_kind_of_form_submission_is_this</sys_update_name>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-11 17:40:09</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

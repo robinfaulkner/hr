@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" audit="true" extends="sys_metadata" label="Direct Deposit" max_length="40" name="x_clstu_hr_request_direct_deposit" type="collection">
+        <element label="Employee" max_length="32" name="employee" reference="sys_user" reference_qual="department!=ad749df6131f22001784b3b12244b09a^ORu_account_type=Student Worker^EQ" reference_qual_condition="department!=ad749df6131f22001784b3b12244b09a^ORu_account_type=Student Worker^EQ" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Supervisor" max_length="32" name="supervisor" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="employee"/>
+        </index>
+        <index name="index2">
+            <element name="supervisor"/>
+        </index>
+    </element>
+</database>

@@ -1,13 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_portal">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
     <sp_portal action="INSERT_OR_UPDATE">
-        <css_variables/>
+        <css_variables>$brand-primary: #555555;
+$body-bg: #fefefe;
+$state-success-text: #5cb85c;
+$sp-homepage-bg: #fff;
+$sp-navbar-divider-color: #FC6719;
+$text-color: #717171;
+$sp-logo-margin-y: 2px;
+$navbar-inverse-link-hover-color: #fcc742;
+$panel-bg: #fff;
+$brand-success: #5cb85c;
+$navbar-inverse-bg: #092c74;
+$brand-warning: #f0ad4e;
+$brand-danger: #d9534f;
+$sp-tagline-color: #717171;
+$navbar-inverse-link-color: #ffffff;
+$brand-info: #428bca;
+$link-color: #428bca;
+$sp-logo-margin-x: 15px;
+$btn-default-bg: #fff;
+$text-muted: #979797;
+</css_variables>
         <default>false</default>
         <homepage display_value="hr_home">de05e9994f571b04e448d48e5210c701</homepage>
         <icon/>
         <kb_knowledge_base/>
         <kb_knowledge_page/>
-        <login_page/>
+        <login_page display_value="landing">36c61807cb31120000f8d856634c9ca9</login_page>
         <logo>60c469994f571b04e448d48e5210c754.iix?t=m</logo>
         <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
         <quick_start_config/>
@@ -15,14 +34,14 @@
         <sc_catalog_page display_value="sc_category">07261a2147132100ba13a5554ee49092</sc_catalog_page>
         <sc_category_page/>
         <sp_chat_queue/>
-        <sp_rectangle_menu display_value="Procurement Catalog">51ae63564f92b600e448d48e5210c796</sp_rectangle_menu>
+        <sp_rectangle_menu display_value="Human Resources Catalog">7b3cde5b13462700c5d457b32244b090</sp_rectangle_menu>
         <sqanda_knowledge_base/>
         <sys_class_name>sp_portal</sys_class_name>
         <sys_created_by>rfaulkner1</sys_created_by>
         <sys_created_on>2018-07-13 16:21:43</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>7064ad594f571b04e448d48e5210c722</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>Human Resources Service Portal</sys_name>
         <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
         <sys_policy/>
@@ -30,8 +49,8 @@
         <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
         <sys_update_name>sp_portal_7064ad594f571b04e448d48e5210c722</sys_update_name>
         <sys_updated_by>rfaulkner1</sys_updated_by>
-        <sys_updated_on>2018-10-18 20:04:16</sys_updated_on>
-        <theme display_value="Procurement">096fbbaa4f5ab600e448d48e5210c74b</theme>
+        <sys_updated_on>2018-12-14 16:00:35</sys_updated_on>
+        <theme display_value="Human Resources">e40b16d713462700c5d457b32244b07e</theme>
         <title>Human Resources Service Portal</title>
         <url_suffix>hr</url_suffix>
     </sp_portal>
@@ -46,6 +65,7 @@
         <image_width>766</image_width>
         <size_bytes>17288</size_bytes>
         <size_compressed>17060</size_compressed>
+        <state/>
         <sys_created_by>rfaulkner1</sys_created_by>
         <sys_created_on>2018-07-13 16:21:42</sys_created_on>
         <sys_id>60c469994f571b04e448d48e5210c754</sys_id>

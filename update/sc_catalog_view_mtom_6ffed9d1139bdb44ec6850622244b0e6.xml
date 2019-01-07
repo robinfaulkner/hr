@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_catalog_view_mtom">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
     <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
         <default>true</default>
         <sc_catalog display_value="Human Resources Service Catalog">6bde5dd1139bdb44ec6850622244b0e1</sc_catalog>

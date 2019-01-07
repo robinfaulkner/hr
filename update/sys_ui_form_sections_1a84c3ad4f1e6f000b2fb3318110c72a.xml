@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="1a84c3ad4f1e6f000b2fb3318110c72a" sys_domain="global" table="x_clstu_hr_request_hr_form_tracker" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 21:06:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5284c3ad4f1e6f000b2fb3318110c72d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_clstu_hr_request_hr_form_tracker" name="x_clstu_hr_request_hr_form_tracker" sys_domain="global" view="Default view">1a84c3ad4f1e6f000b2fb3318110c72a</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_clstu_hr_request_hr_form_tracker" sys_domain="global" view="Default view">7743cf2d4f1e6f000b2fb3318110c784</sys_ui_section>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 21:06:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 21:06:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1e84c3ad4f1e6f000b2fb3318110c72d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_clstu_hr_request_hr_form_tracker" name="x_clstu_hr_request_hr_form_tracker" sys_domain="global" view="Default view">1a84c3ad4f1e6f000b2fb3318110c72a</sys_ui_form>
+            <sys_ui_section caption="Document Information" display_value="Document Information" name="x_clstu_hr_request_hr_form_tracker" sys_domain="global" view="Default view">d684c3ad4f1e6f000b2fb3318110c727</sys_ui_section>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 21:06:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 21:06:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>da84c3ad4f1e6f000b2fb3318110c756</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_clstu_hr_request_hr_form_tracker" name="x_clstu_hr_request_hr_form_tracker" sys_domain="global" view="Default view">1a84c3ad4f1e6f000b2fb3318110c72a</sys_ui_form>
+            <sys_ui_section caption="If not an employee" display_value="If not an employee" name="x_clstu_hr_request_hr_form_tracker" sys_domain="global" view="Default view">1684c3ad4f1e6f000b2fb3318110c728</sys_ui_section>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 21:06:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 21:06:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9684c3ad4f1e6f000b2fb3318110c75a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_clstu_hr_request_hr_form_tracker" name="x_clstu_hr_request_hr_form_tracker" sys_domain="global" view="Default view">1a84c3ad4f1e6f000b2fb3318110c72a</sys_ui_form>
+            <sys_ui_section caption="Form Routing Information" display_value="Form Routing Information" name="x_clstu_hr_request_hr_form_tracker" sys_domain="global" view="Default view">1e84c3ad4f1e6f000b2fb3318110c728</sys_ui_section>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 21:06:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 21:06:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d684c3ad4f1e6f000b2fb3318110c75e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_clstu_hr_request_hr_form_tracker" name="x_clstu_hr_request_hr_form_tracker" sys_domain="global" view="Default view">1a84c3ad4f1e6f000b2fb3318110c72a</sys_ui_form>
+            <sys_ui_section caption="Form Filed" display_value="Form Filed" name="x_clstu_hr_request_hr_form_tracker" sys_domain="global" view="Default view">1684c3ad4f1e6f000b2fb3318110c729</sys_ui_section>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 21:06:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 21:07:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9e84c3ad4f1e6f000b2fb3318110c762</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_clstu_hr_request_hr_form_tracker" name="x_clstu_hr_request_hr_form_tracker" sys_domain="global" view="Default view">1a84c3ad4f1e6f000b2fb3318110c72a</sys_ui_form>
+            <sys_ui_section caption="About the Submission" display_value="About the Submission" name="x_clstu_hr_request_hr_form_tracker" sys_domain="global" view="Default view">1e84c3ad4f1e6f000b2fb3318110c729</sys_ui_section>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 21:07:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_clstu_hr_request_hr_form_tracker</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 21:06:59</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1a84c3ad4f1e6f000b2fb3318110c72a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_clstu_hr_request_hr_form_tracker</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
+            <sys_update_name>sys_ui_form_sections_1a84c3ad4f1e6f000b2fb3318110c72a</sys_update_name>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 21:06:59</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

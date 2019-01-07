@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="document_type" table="x_clstu_hr_request_hr_form_tracker" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>document_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Direct Deposit</label>
+            <language>en</language>
+            <name>x_clstu_hr_request_hr_form_tracker</name>
+            <sequence/>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 20:40:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bd7e7a254f1e6f000b2fb3318110c744</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 20:40:36</sys_updated_on>
+            <value>Direct Deposit</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>document_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employee Supplemental Pay</label>
+            <language>en</language>
+            <name>x_clstu_hr_request_hr_form_tracker</name>
+            <sequence/>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 20:40:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>405efa254f1e6f000b2fb3318110c790</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 20:40:00</sys_updated_on>
+            <value>Employee Supplemental Pay</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>document_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employee Verification</label>
+            <language>en</language>
+            <name>x_clstu_hr_request_hr_form_tracker</name>
+            <sequence/>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 20:40:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e86efa254f1e6f000b2fb3318110c798</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 20:40:16</sys_updated_on>
+            <value>Employee Verification</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>document_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Extra Comp</label>
+            <language>en</language>
+            <name>x_clstu_hr_request_hr_form_tracker</name>
+            <sequence/>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 20:39:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d53e7a254f1e6f000b2fb3318110c787</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 20:39:43</sys_updated_on>
+            <value>Extra Comp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>document_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New Employee Packet</label>
+            <language>en</language>
+            <name>x_clstu_hr_request_hr_form_tracker</name>
+            <sequence/>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 20:40:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c38e3e254f1e6f000b2fb3318110c779</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 20:40:56</sys_updated_on>
+            <value>New Employee Packet</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>document_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_clstu_hr_request_hr_form_tracker</name>
+            <sequence/>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 20:41:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>99ce36654f1e6f000b2fb3318110c78b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 20:41:47</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>document_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PAF</label>
+            <language>en</language>
+            <name>x_clstu_hr_request_hr_form_tracker</name>
+            <sequence/>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 20:41:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b39e72654f1e6f000b2fb3318110c7ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 20:41:09</sys_updated_on>
+            <value>PAF</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>document_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PRF</label>
+            <language>en</language>
+            <name>x_clstu_hr_request_hr_form_tracker</name>
+            <sequence/>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 20:41:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>87aef2654f1e6f000b2fb3318110c738</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 20:41:22</sys_updated_on>
+            <value>PRF</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>document_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Security Questionnaire/Loyalty Oath</label>
+            <language>en</language>
+            <name>x_clstu_hr_request_hr_form_tracker</name>
+            <sequence/>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 20:41:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>82bef2654f1e6f000b2fb3318110c728</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 20:41:34</sys_updated_on>
+            <value>Security Questionnaire/Loyalty Oath</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>document_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TAP Application</label>
+            <language>en</language>
+            <name>x_clstu_hr_request_hr_form_tracker</name>
+            <sequence/>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 20:52:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>831147294f1e6f000b2fb3318110c7f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 20:52:01</sys_updated_on>
+            <value>TAP Application</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>document_type</element>
+            <name>x_clstu_hr_request_hr_form_tracker</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 20:39:43</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>7e4e7ee14f1e6f000b2fb3318110c780</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>document_type</sys_name>
+            <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
+            <sys_update_name>sys_choice_x_clstu_hr_request_hr_form_tracker_document_type</sys_update_name>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 20:39:43</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

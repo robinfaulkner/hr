@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item_category">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="BI Results">939379c9137f1300ec6850622244b04f</sc_cat_item>
         <sc_category display_value="Onboarding">be0f1115139bdb44ec6850622244b0d0</sc_category>

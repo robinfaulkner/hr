@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_container">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
     <sp_container action="INSERT_OR_UPDATE">
         <background_color/>
         <background_image>78534ae64f1f1f04e448d48e5210c707.iix?t=m</background_image>
@@ -10,13 +9,13 @@
         <name>Home - Container 1</name>
         <order>1</order>
         <sp_page display_value="hr_home">de05e9994f571b04e448d48e5210c701</sp_page>
-        <subheader>false</subheader>
+        <subheader>true</subheader>
         <sys_class_name>sp_container</sys_class_name>
         <sys_created_by>rfaulkner1</sys_created_by>
         <sys_created_on>2018-07-13 16:22:54</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>9205e9994f571b04e448d48e5210c704</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Home - Container 1</sys_name>
         <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
         <sys_policy/>
@@ -24,7 +23,7 @@
         <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
         <sys_update_name>sp_container_9205e9994f571b04e448d48e5210c704</sys_update_name>
         <sys_updated_by>rfaulkner1</sys_updated_by>
-        <sys_updated_on>2018-07-17 15:47:40</sys_updated_on>
+        <sys_updated_on>2018-12-14 16:26:11</sys_updated_on>
         <title/>
         <width>container</width>
     </sp_container>
@@ -39,6 +38,7 @@
         <image_width>1200</image_width>
         <size_bytes>193262</size_bytes>
         <size_compressed>192861</size_compressed>
+        <state/>
         <sys_created_by>rfaulkner1</sys_created_by>
         <sys_created_on>2018-07-17 15:47:38</sys_created_on>
         <sys_id>78534ae64f1f1f04e448d48e5210c707</sys_id>

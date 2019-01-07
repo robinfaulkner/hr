@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item_user_criteria_mtom">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
     <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="BI Results">939379c9137f1300ec6850622244b04f</sc_cat_item>
         <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sysevent_email_action">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>true</action_insert>
         <action_update>true</action_update>
@@ -39,6 +38,8 @@
         <mandatory>false</mandatory>
         <message/>
         <message_html><![CDATA[<div style="caret-color: #000000; font-family: -webkit-standard; text-size-adjust: auto;">
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: #000000; text-size-adjust: auto;"><span style="font-family: helvetica;"><strong><span style="text-decoration: underline;"><span style="font-size: 10pt; background-color: yellow;"><img style="align: top;" title="" src="HR%20Mail%20Logo.pngx" alt="HR Email Logo" align="top" border="" hspace="" vspace="" /></span></span></strong></span></p>
+<p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: #000000; text-size-adjust: auto;">&nbsp;</p>
 <p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: #000000; text-size-adjust: auto;"><span style="font-family: helvetica;"><strong><span style="text-decoration: underline;"><span style="font-size: 10pt; background-color: yellow;">CONFIDENTIAL. THIS SHOULD NOT BE SHARED WITH THE CANDIDATE</span></span></strong><strong><span style="font-size: 10pt; background-color: yellow;">!<span class="Apple-converted-space">&nbsp;</span><span style="text-decoration: underline;">HOWEVER, YOU MAY HAVE THE CANDIDATE CONTACT HR FOR FURTHER INFORMATION.</span></span></strong></span></p>
 <p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: #000000; text-size-adjust: auto;"><span style="font-size: 10pt; font-family: helvetica;">&nbsp;</span></p>
 <p style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif; caret-color: #000000; text-size-adjust: auto;"><span style="font-family: helvetica;"><strong><span style="font-size: 10pt;">Note this is an automated communication being sent by Human Resources.<span class="Apple-converted-space">&nbsp;</span></span></strong><span style="font-size: 10pt;">The following candidate is currently in the Pre-Adverse Notification stage of the Background Investigation Review process.</span></span></p>
@@ -102,7 +103,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>169c9cb113ffd300ec6850622244b077</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>BIC - BI Notification to Hiring Manager</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
@@ -110,8 +111,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
         <sys_update_name>sysevent_email_action_169c9cb113ffd300ec6850622244b077</sys_update_name>
-        <sys_updated_by>rfaulkner1</sys_updated_by>
-        <sys_updated_on>2018-10-10 14:38:02</sys_updated_on>
+        <sys_updated_by>mkocher</sys_updated_by>
+        <sys_updated_on>2018-12-05 21:09:17</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

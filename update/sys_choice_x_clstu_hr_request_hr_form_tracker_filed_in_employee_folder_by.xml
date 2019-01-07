@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="filed_in_employee_folder_by" table="x_clstu_hr_request_hr_form_tracker" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>filed_in_employee_folder_by</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ella Regis</label>
+            <language>en</language>
+            <name>x_clstu_hr_request_hr_form_tracker</name>
+            <sequence/>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 20:56:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d70243a94f1e6f000b2fb3318110c705</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 20:56:19</sys_updated_on>
+            <value>Ella Regis</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>filed_in_employee_folder_by</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Juan Cerda</label>
+            <language>en</language>
+            <name>x_clstu_hr_request_hr_form_tracker</name>
+            <sequence/>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 20:56:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d0224f694f1e6f000b2fb3318110c787</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 20:56:29</sys_updated_on>
+            <value>Juan Cerda</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>filed_in_employee_folder_by</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Samira Clunis</label>
+            <language>en</language>
+            <name>x_clstu_hr_request_hr_form_tracker</name>
+            <sequence/>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 20:56:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>76228b694f1e6f000b2fb3318110c71b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 20:56:39</sys_updated_on>
+            <value>Samira Clunis</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>filed_in_employee_folder_by</element>
+            <name>x_clstu_hr_request_hr_form_tracker</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 20:56:19</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>02120b694f1e6f000b2fb3318110c7bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>filed_in_employee_folder_by</sys_name>
+            <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
+            <sys_update_name>sys_choice_x_clstu_hr_request_hr_form_tracker_filed_in_employee_folder_by</sys_update_name>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 20:56:19</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

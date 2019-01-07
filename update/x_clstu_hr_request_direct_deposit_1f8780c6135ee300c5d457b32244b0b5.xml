@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_clstu_hr_request_direct_deposit">
+    <x_clstu_hr_request_direct_deposit action="INSERT_OR_UPDATE">
+        <employee display_value="Yasmine Edwards">a39331f2135f22001784b3b12244b019</employee>
+        <number>HRDIR0001026</number>
+        <supervisor/>
+        <sys_class_name>x_clstu_hr_request_direct_deposit</sys_class_name>
+        <sys_created_by>nyallah</sys_created_by>
+        <sys_created_on>2018-12-11 20:38:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1f8780c6135ee300c5d457b32244b0b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
+        <sys_update_name>x_clstu_hr_request_direct_deposit_1f8780c6135ee300c5d457b32244b0b5</sys_update_name>
+        <sys_updated_by>nyallah</sys_updated_by>
+        <sys_updated_on>2018-12-11 20:38:22</sys_updated_on>
+    </x_clstu_hr_request_direct_deposit>
+</record_update>

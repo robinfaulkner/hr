@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_clstu_hr_request_direct_deposit">x_clstu_hr_request_direct_deposit</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>HRDIR</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>mkocher</sys_created_by>
+        <sys_created_on>2018-12-10 19:21:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e05c26a14f9a6f000b2fb3318110c7f7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>HRDIR</sys_name>
+        <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
+        <sys_update_name>sys_number_e05c26a14f9a6f000b2fb3318110c7f7</sys_update_name>
+        <sys_updated_by>mkocher</sys_updated_by>
+        <sys_updated_on>2018-12-10 19:48:15</sys_updated_on>
+    </sys_number>
+</record_update>

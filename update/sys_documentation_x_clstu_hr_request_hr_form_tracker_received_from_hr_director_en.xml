@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="received_from_hr_director" label="Received from HR Director" language="en" table="x_clstu_hr_request_hr_form_tracker">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>received_from_hr_director</element>
+            <help/>
+            <hint/>
+            <label>Received from HR Director</label>
+            <language>en</language>
+            <name>x_clstu_hr_request_hr_form_tracker</name>
+            <plural>Received from HR Directors</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>mkocher</sys_created_by>
+            <sys_created_on>2018-12-10 20:47:33</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>e510c7a54f1e6f000b2fb3318110c71b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Received from HR Director</sys_name>
+            <sys_package display_value="HR Request" source="x_clstu_hr_request">a4f4d5114f171b04e448d48e5210c703</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Request">a4f4d5114f171b04e448d48e5210c703</sys_scope>
+            <sys_update_name>sys_documentation_x_clstu_hr_request_hr_form_tracker_received_from_hr_director_en</sys_update_name>
+            <sys_updated_by>mkocher</sys_updated_by>
+            <sys_updated_on>2018-12-10 20:47:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
